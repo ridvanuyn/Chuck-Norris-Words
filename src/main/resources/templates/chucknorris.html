@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Chuck Norris Jokes</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head
+>
+<body    style= "background-color: #EDF2F0">
+<div class="chuck">
+    <img class="chuck-img" src="/chuck.png"/>
+</div>
+<h1 class="middle" th:utext="${joke}"></h1>
+
+</body>
+</html>
